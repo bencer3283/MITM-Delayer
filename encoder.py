@@ -10,7 +10,7 @@ knob = RotaryEncoder(23, 24, max_steps=60)
 
 def PrintKnob(encoder):
     print(encoder.steps)
-    fan.value = encoder.steps / 60
+    # fan.value = encoder.steps / 60
 
 def Forward():
     forward.on()
